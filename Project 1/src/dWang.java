@@ -7,4 +7,8 @@ public class dWang {
 		String year= a.substring(6,10);
 		return (day + "-" + month + "-" + year);
 	}
+	public static void sumUpTo (int n) {
+		  System.out.println(n * (n + 1) / 2);
+		    }
+	
 }
