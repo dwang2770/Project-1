@@ -10,7 +10,7 @@ public static void 	multiplicationTable(int base,int limit)
 	int y=1;
 	while ( x!=limit )
 	{
-		System.out.print( base*(limit-limit+y)+ " " );
+		System.out.print( base*(y)+ " " );
 		x++;
 		y++;
 	}
