@@ -3,7 +3,7 @@ public class MutiplicationTable {
 	public static void main(String []args) 
 	{
 		multiplicationTable(12,12);
-		if ( isFibonacci(5) )
+		if ( isFibonacci(12) )
 		System.out.println( "Yes");
 	}	
 public static void 	multiplicationTable(int base,int limit)
@@ -21,21 +21,18 @@ public static void 	multiplicationTable(int base,int limit)
 	
 public static boolean isFibonacci(int num)
 {
-	int x;
-	int y;
-	if ( num <= 3 )
-		return true;
-	for (x=1,y=1; x>=num; x+=y, y+=x  )
+	int x=0, y=1, z=0;
+	while (z <num )
 	{
-		x+=4;
-		return true; 
+		z = x + y;
+		x = y; 
+		y = z; 
+		
 	}
-	return true;
+	if (z==num)
+		return true;
+	else return false;
 }
-
-
-
-
 
 
 
