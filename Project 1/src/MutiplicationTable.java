@@ -5,6 +5,7 @@ public class MutiplicationTable {
 		multiplicationTable(12,12);
 		if ( isFibonacci(12) )
 		System.out.println( "Yes");
+		Syste.out.println(cutOut("RandomWordsAreRandom" , "Random" ))
 	}	
 public static void 	multiplicationTable(int base,int limit)
 {
@@ -36,9 +37,12 @@ public static boolean isFibonacci(int num)
 
 
 
-public static void cutOut() //void?
+public static String cutOut(String mainStr, String subStr) 
 {
-	
+	String original = mainStr;
+	String newString = String.replace ( subStr, "");
+	return newString;
+
 }
 	
 	
