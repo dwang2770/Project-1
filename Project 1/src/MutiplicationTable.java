@@ -40,7 +40,7 @@ public static boolean isFibonacci(int num)
 public static String cutOut(String mainStr, String subStr) 
 {
 	String original = mainStr;
-	String newString = String.replace ( subStr, "");
+	String newString = String.replaceFirst ( subStr, "");
 	return newString;
 
 }
