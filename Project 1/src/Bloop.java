@@ -5,7 +5,7 @@ public class MutiplicationTable {
 		multiplicationTable(12,12);
 		if ( isFibonacci(12) )
 		System.out.println( "Yes");
-		Syste.out.println(cutOut("RandomWordsAreRandom" , "Random" ))
+		System.out.println(cutOut("RandomWordsAreRandom" , "Random" ))
 	}	
 public static void 	multiplicationTable(int base,int limit)
 {
