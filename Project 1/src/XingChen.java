@@ -1,11 +1,11 @@
 //Xing Chen
-public class MutiplicationTable {
+public class XingChen {
 	public static void main(String []args) 
 	{
 		multiplicationTable(12,12); 
-		if ( isFibonacci(12) )
+		if ( isFibonacci(13) )
 		System.out.println( "Yes");
-		System.out.println(cutOut("RandomWordsAreRandom" , "Random" ))
+		System.out.println(cutOut("RandomWordsAreRandom" , "Random" ));
 	}	
 public static void 	multiplicationTable(int base,int limit)
 {
