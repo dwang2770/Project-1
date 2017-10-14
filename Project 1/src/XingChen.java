@@ -1,12 +1,6 @@
 //Xing Chen
 public class XingChen {
-	public static void main(String []args) 
-	{
-		multiplicationTable(12,12); 
-		if ( isFibonacci(13) )
-		System.out.println( "Yes");
-		System.out.println(cutOut("RandomWordsAreRandom" , "Random" ));
-	}	
+	
 public static void 	multiplicationTable(int base,int limit)
 {
 
@@ -30,9 +24,12 @@ public static boolean isFibonacci(int num)
 		y = z; //y is given the value of z
 		
 	}
-	if (z==num)//if at the end of the loop  z is equal to num return true
+	if (z==num) //if at the end of the loop  z is equal to num return true
+	{
+		System.out.println("Yes"); //prints out yes if true
 		return true;
-	else return false;
+	}
+	  else return false;
 }
 
 
@@ -41,8 +38,9 @@ public static String cutOut(String mainStr, String subStr)
 {
 	String original = mainStr; //mainStr is called original
 	String newString = original.replaceFirst ( subStr, ""); //new string is original but with the first instance of whatever subStr is replaced with blank
+	System.out.println(newString);
 	return newString; //returns the new string
-
+	
 }
 	
 	
