@@ -1,4 +1,4 @@
-
+//Dave Wang period 2
 public class dWang {
 	public static String dateStr ( String a ) {
 		String month= a.substring (0,2);
@@ -15,7 +15,7 @@ public class dWang {
 		}
 	public static boolean isPalindrome(String x) {
 		String word= "";
-			for (int n = x.length() -1; n == 0; n--) {
+			for (int n = x.length() -1; n >= 0; n--) {
 				word = word + x.charAt(n);
 			}
 				return (x.equals(word));
